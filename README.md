@@ -1,2 +1,3 @@
 # remark-plantuml
-remark plugin to render plantuml diagrams
+
+A remark plugin to render [plantuml](https://plantuml.com/) diagrams.

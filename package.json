@@ -1,0 +1,37 @@
+{
+  "name": "remark-plantuml",
+  "version": "1.0.0",
+  "description": "remark plugin to render plantuml diagrams",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrico/remark-plantuml.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "remark",
+    "remark-plugin",
+    "plantuml",
+    "markdown",
+    "plugin",
+    "mdast",
+    "unified"
+  ],
+  "author": "Marco Rico <marco@mrico.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrico/remark-plantuml/issues"
+  },
+  "homepage": "https://github.com/mrico/remark-plantuml#readme",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  }
+}
