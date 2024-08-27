@@ -8,7 +8,13 @@ const defaultOptions = {
 
 const renderPlantUML = (input, options) => {
   return new Promise((resolve, reject) => {
-    const args = ["-jar", options.jarPath, `-t${options.format}`, "-pipe"];
+    const args = [
+      "-Djava.awt.headless=true",
+      "-jar",
+      options.jarPath,
+      `-t${options.format}`,
+      "-pipe",
+    ];
     const child = child_process.spawn("java", args, {
       stdio: ["pipe", "pipe", "inherit"],
     });
